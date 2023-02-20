@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+          <!--icons font awsome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    rel="stylesheet">
+
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white p-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html"><img src="../images/gts.PNG" class="img-fluid w-25" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold fs-5">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Acceuil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../list-produit/index.html">list des produits</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Type de produit
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../categorie/box.html">Marque Samsung</a></li>
+              <li><a class="dropdown-item" href="../categorie/tech.html">Marque Itel</a></li>
+              <li><a class="dropdown-item" href="../categorie/inbox.html">Marque Iphone</a></li>
+              <li><a class="dropdown-item" href="../categorie/index.html">Marque Tecno</a></li>
+            </ul>
+          </li>
+        <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn text-white fs-5" type="submit" style="background: #00B0FF;">Search</button>
+      </form>
+      </ul>
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold fs-5">
+              <li class="nav-item mx-2">
+                <a type="button" class="nav-link" data-bs-toggle="modal" 
+              data-bs-target="#staticBackdrop">
+              <i class="fa-solid fa-1x fa-cart-shopping"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../conexion/index.html"><i class="fa-solid fa-user"></i>Conexion / Inscription</a>
+              </li>
+            </ul>
+    </div>
+  </div>
+</nav>
+<section class="achat">
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">produit Acheter</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          vide
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-bs-dismiss="modal">retour</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+<section id="home" style="background-color: 00b0ff;">
+        <div class="container mb-4 mt-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="../images/sam2.png" class="img-fluid pt-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">samsung galaxy z</h5>
+                            <p class="card-text">samsug galaxy z flip4 512gb</p>
+                            <p class="card-text">prix : 730 000cfa</p>
+                            <div class="icon mb-3">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <button type="button" class="btn text-white p-2" style="background: #00B0FF;" data-bs-toggle="modal" 
+                          data-bs-target="#exampleModal" data-bs-whatever="@mdo">Acheter</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="../images/sam1.jpeg" class="img-fluid pt-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">samsung galaxy</h5>
+                            <p class="card-text">samsung A52 memoir 128gb</p>
+                            <p class="card-text">prix : 195 000cfa</p>
+                            <div class="icon mb-3">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <button type="button" class="btn text-white p-2" style="background: #00B0FF;" data-bs-toggle="modal" 
+                          data-bs-target="#exampleModal" data-bs-whatever="@mdo">Acheter</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="../images/sam3.jpg" class="img-fluid pt-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy A71</h5>
+                            <p class="card-text">Samsung Galaxy A71 128 Gb </p>
+                            <p class="card-text">prix : 160 000cfa</p>
+                            <div class="icon mb-3">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <button type="button" class="btn text-white p-2" style="background: #00B0FF;" data-bs-toggle="modal" 
+                            data-bs-target="#exampleModal" data-bs-whatever="@mdo">Acheter</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="card">
+                        <img src="../images/sam4.jpg" class="img-fluid pt-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy A11</h5>
+                            <p class="card-text">Samsung Galaxy A71 128 Gb </p>
+                            <p class="card-text">prix : 100 000cfa</p>
+                            <div class="icon mb-3">
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <button type="button" class="btn text-white p-2" style="background: #00B0FF;" data-bs-toggle="modal" 
+                          data-bs-target="#exampleModal" data-bs-whatever="@mdo">Acheter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">lieu de livreson</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">nom complet:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">adresse de livreson:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">telephone:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Message:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-bs-dismiss="modal">annuler</button>
+                <button type="button" class="btn btn-primary">enregisterer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+<!--------section footer-->
+<section id="footer" class=" p-3 bg-dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-sm-12">
+          <div class="text-center p-2">
+            <img src="../images/gts.PNG" class="img-fluid mb-3 w-25" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <div class="icon mb-3 text-white text-center p-2 ">
+                <i class="fa-brands mx-2 fa-2x fa-facebook"></i>
+                <i class="fa-brands mx-2 fa-2x fa-square-twitter"></i>
+                <i class="fa-brands mx-2 fa-2x fa-square-instagram"></i>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="text-center text-white p-2">
+            <div class="text-center fs-5 text-white">
+                <p>copyright GTS janvier 2023</p>
+            </div>
+          </div>
+        </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="text-center text-white p-2">
+              <p><strong>contact :</strong> +221 770000000 <br><strong>fixe :</strong> +221 330000000</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</body>
+</html>
